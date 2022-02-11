@@ -1,0 +1,88 @@
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>android.hardware.gnss</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <version>1.1</version>
+        <interface>
+            <name>IGnss</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.keymaster</name>
+        <transport>hwbinder</transport>
+        <version>4.0</version>
+        <interface>
+            <name>IKeymasterDevice</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.nfc</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>INfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.secure_element</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISecureElement</name>
+            <instance>SIM1</instance>
+            <instance>eSE1</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>IGoodixFingerprintDaemon</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IGoodixFingerprintDaemonExt</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IGoodixFingerprintDaemonFido</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IGoodixFingerprintDaemonHbd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.goodix.hardware.fingerprintextension</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IGoodixBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.nxp.nxpese</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>INxpEse</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.nxp.nxpnfclegacy</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>INxpNfcLegacy</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>
